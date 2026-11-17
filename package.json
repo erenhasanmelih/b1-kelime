@@ -1,0 +1,13 @@
+{
+  "name": "b1-kelime",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Cambridge B1 kelime kartları — Android uygulaması",
+  "scripts": { "sync": "cap sync android" },
+  "dependencies": {
+    "@capacitor/android": "8.6.0",
+    "@capacitor/core": "8.6.0",
+    "@capacitor-community/text-to-speech": "8.0.2"
+  },
+  "devDependencies": { "@capacitor/cli": "8.6.0" }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "B1 Kelime Kartları",
+  "short_name": "B1 Kelime",
+  "description": "Cambridge B1 Preliminary kelime kartları: telaffuz, örnek cümle ve tekrar.",
+  "lang": "tr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF7FF",
+  "theme_color": "#6A4FC2",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

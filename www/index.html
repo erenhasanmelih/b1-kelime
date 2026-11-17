@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>B1 Kelime</title>
+<meta name="description" content="Cambridge B1 Preliminary kelime kartları: telaffuz, örnek cümle, tekrar.">
+<meta name="theme-color" content="#FBF7FF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16131C" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="app">
+  <header class="bar" id="bar"></header>
+  <main id="main" tabindex="-1"><p class="loading">Kelimeler yükleniyor…</p></main>
+  <nav class="tabs" aria-label="Bölümler">
+    <button data-tab="today" aria-current="page"><i aria-hidden="true">📅</i><span>Bugün</span></button>
+    <button data-tab="review"><i aria-hidden="true">🔁</i><span>Tekrar</span></button>
+    <button data-tab="list"><i aria-hidden="true">📚</i><span>Liste</span></button>
+    <button data-tab="me"><i aria-hidden="true">📈</i><span>İlerleme</span></button>
+  </nav>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="capacitor.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "appId": "io.github.erenhasanmelih.b1kelime",
+  "appName": "B1 Kelime",
+  "webDir": "www",
+  "android": { "backgroundColor": "#FBF7FF" }
+}
